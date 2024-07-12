@@ -1,5 +1,5 @@
 title:               Nikhil Gahlawat
-url:                 https://nicoelayda.github.io
+url:                 https://nikhilgahlawat.github.io/
 baseurl:             ""
 
 markdown:            kramdown
@@ -20,7 +20,7 @@ sass:
 
 author:
   name:              Nikhil Gahlawat
-  url:               
+  url:               nikhilgahlawat.github.io/
   email:             
 
 plugins:
