@@ -1,0 +1,29 @@
+title:               Nikhil Gahlawat
+url:                 https://nicoelayda.github.io
+baseurl:             ""
+
+markdown:            kramdown
+highlighter:         rouge
+
+exclude:             ['*.sublime-*', 'README.md', 'LICENSE', 'Gemfile', 'Gemfile.lock', 'vendor/bundle']
+
+permalink:           /projects/:title/
+paginate:            5
+paginate_path:       /projects/:num
+
+projects:
+  truncated_preview: false
+
+sass:
+  sass_dir:          _sass
+  style:             :compressed
+
+author:
+  name:              Nikhil Gahlawat
+  url:               
+  email:             
+
+plugins:
+  - jekyll-coffeescript
+  - jekyll-paginate
+  - jekyll-gist

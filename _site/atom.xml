@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+ <title>Nikhil Gahlawat</title>
+ <link href="http://localhost:4000/atom.xml" rel="self"/>
+ <link href="http://localhost:4000"/>
+ <updated>2024-07-11T22:16:39-04:00</updated>
+ <id>http://localhost:4000</id>
+ <author>
+   <name>Nikhil Gahlawat</name>
+   <!-- <email></email> -->
+ </author>
+
+ 
+ <entry>
+   <title>Scraping the Supreme Court</title>
+   <link href="http://localhost:4000/projects/scotus-scraper/"/>
+   <!-- <updated>2024-07-11T00:00:00-04:00</updated> -->
+   <id>http://localhost:4000/projects/scotus-scraper</id>
+   <content type="html">&lt;p&gt;&lt;a href=&quot;https://github.com/nikhilgahlawat/scotus_scraper/tree/main&quot;&gt;SCOTUS Scraper&lt;/a&gt; is a project to collect US Supreme Court opinions, briefs, and other documents filed with the Court and make them available in machine-readable format.&lt;/p&gt;
+
+&lt;!--more--&gt;
+&lt;hr /&gt;
+
+&lt;p&gt;A few weeks ago I was reading &lt;a href=&quot;https://www.nytimes.com/2024/06/24/us/supreme-court-abortion-briefs.html&quot;&gt;an article&lt;/a&gt; about new research that takes an NLP-like approach to understanding how arguments are presented before the Supreme Court. The researchers collected amicus briefs filed in cases having to do with the same topic - in this case, reproductive rights - and analyzed their text to see how the arguments changed over time, and what that might indicate about how rhetorical strategies have evolved.&lt;/p&gt;
+
+&lt;p&gt;In short, they found that opponents to abortion had done a better job of adapting their strategies over time, making efforts to match the way the Court itself was changing, and made more emotional appeals.&lt;/p&gt;
+
+&lt;p&gt;I was curiuos to dig a bit deeper into the analysis. See what methods they used and if they could be applied to other issues commonly brought before the Court.&lt;/p&gt;
+
+&lt;p&gt;But when I looked through the &lt;a href=&quot;https://scholarship.law.missouri.edu/cgi/viewcontent.cgi?article=4664&amp;amp;context=mlr&quot;&gt;full paper&lt;/a&gt; I saw that they’d limited their analysis to reproductive rights, and they hadn’t made the data available.&lt;/p&gt;
+
+&lt;p&gt;So I went digging around the internet in search of a dataset of Supreme Court opinions text but had a surprisingly difficult time finding one. There were some datasets on how justices voted, data on lower and state courts, data on caselaw, and even a couple resources that had the text of oral arguments. Here are a few:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;http://scdb.wustl.edu/&quot;&gt;Supreme Court Database&lt;/a&gt; from Washington University Law&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://case.law/&quot;&gt;Caselaw Access Project&lt;/a&gt; from Harvard Law School&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://convokit.cornell.edu/documentation/supreme.html&quot;&gt;Supreme Court Oral Arguments Corpus&lt;/a&gt; from ConvoKit made by researchers at Cornell&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://free.law/projects/supreme-court-data&quot;&gt;Supreme Court Data&lt;/a&gt; from &lt;a href=&quot;https://free.law/&quot;&gt;Free Law Project&lt;/a&gt; and &lt;a href=&quot;https://www.courtlistener.com/&quot;&gt;CourtListener&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;But I couldn’t seem to find what I was looking for: a freely available dataset on Supreme Court opinions text in machine-readable format.&lt;/p&gt;
+
+&lt;p&gt;So I tried making it myself. &lt;a href=&quot;https://github.com/nikhilgahlawat/scotus_scraper/tree/main&quot;&gt;SCOTUS Scraper&lt;/a&gt; is a project in-progreess that collects data from &lt;a href=&quot;https://supreme.justia.com/&quot;&gt;Justia&lt;/a&gt;, &lt;a href=&quot;https://www.oyez.org/&quot;&gt;Oyez&lt;/a&gt;, and the &lt;a href=&quot;https://www.supremecourt.gov/&quot;&gt;US Supreme Court&lt;/a&gt; and processes them into datasets that can be used for data science and research.&lt;/p&gt;
+
+&lt;p&gt;Some questions I’m hoping that can be asked of the data:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;…&lt;/li&gt;
+  &lt;li&gt;…&lt;/li&gt;
+  &lt;li&gt;…&lt;/li&gt;
+&lt;/ul&gt;
+
+</content>
+ </entry>
+ 
+
+</feed>
