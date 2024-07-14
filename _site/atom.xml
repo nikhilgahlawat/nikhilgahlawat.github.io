@@ -4,7 +4,7 @@
  <title>Nikhil Gahlawat</title>
  <link href="http://localhost:4000/atom.xml" rel="self"/>
  <link href="http://localhost:4000"/>
- <updated>2024-07-14T19:01:26-04:00</updated>
+ <updated>2024-07-14T19:11:00-04:00</updated>
  <id>http://localhost:4000</id>
  <author>
    <name>Nikhil Gahlawat</name>
@@ -109,8 +109,8 @@
 
 &lt;p&gt;&lt;img src=&quot;/projects/assets/h1b-tech/Median Wages for H-1B Workers.png&quot; alt=&quot;Median Wages for H-1B Workers&quot; class=&quot;center-image&quot; /&gt;
 &lt;span style=&quot;line-height:-2; font-size:10pt; font-style:italic;&quot;&gt;
-Wages are broken out by how they compare to the local median wage of similar occupations.
-Level 1: 17th percentile of local median wage | Level 2: 34th percentile | Level 3: 50th percentile | Level 4: 67th percentile
+Wages are grouped into levels based on how they compare to the local median wage of similar occupations.&lt;br /&gt;
+Level 1: 17th percentile of local median wage | Level 2: 34th perc | Level 3: 50th perc | Level 4: 67th perc
 &lt;/span&gt;&lt;/p&gt;
 
 &lt;p&gt;If reforms do pass, they will likely continue targeting outsourcing companies, clearing the way for big tech to continue taking more of the visa pool, as they have been over the past 15 years. But H-1B reform alone deals only with how and which foreign workers get to come to the US. What happens after they’re here?&lt;/p&gt;
