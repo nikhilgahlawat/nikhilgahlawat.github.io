@@ -4,7 +4,7 @@
  <title>Nikhil Gahlawat</title>
  <link href="http://localhost:4000/atom.xml" rel="self"/>
  <link href="http://localhost:4000"/>
- <updated>2024-07-14T19:11:00-04:00</updated>
+ <updated>2024-07-14T21:44:24-04:00</updated>
  <id>http://localhost:4000</id>
  <author>
    <name>Nikhil Gahlawat</name>
@@ -168,20 +168,20 @@ Level 1: 17th percentile of local median wage | Level 2: 34th perc | Level 3: 50
    <link href="http://localhost:4000/projects/scotus-scraper/"/>
    <!-- <updated>2024-07-11T00:00:00-04:00</updated> -->
    <id>http://localhost:4000/projects/scotus-scraper</id>
-   <content type="html">&lt;p&gt;&lt;a href=&quot;https://github.com/nikhilgahlawat/scotus_scraper/tree/main&quot;&gt;SCOTUS Scraper&lt;/a&gt; is a project to collect US Supreme Court opinions, briefs, and other documents filed with the Court and make them available in machine-readable format.&lt;/p&gt;
+   <content type="html">&lt;p&gt;&lt;a href=&quot;https://github.com/nikhilgahlawat/scotus_scraper/&quot;&gt;SCOTUS Scraper&lt;/a&gt; is a project to collect US Supreme Court opinions, briefs, and other documents filed with the Court and make them available in machine-readable format.&lt;/p&gt;
 
 &lt;!--more--&gt;
 &lt;hr /&gt;
 
 &lt;p&gt;A few weeks ago I was reading &lt;a href=&quot;https://www.nytimes.com/2024/06/24/us/supreme-court-abortion-briefs.html&quot;&gt;an article&lt;/a&gt; about new research that takes an NLP-like approach to understanding how arguments are presented before the Supreme Court. The researchers collected amicus briefs filed in cases having to do with the same topic - in this case, reproductive rights - and analyzed their text to see how the arguments changed over time, and what that might indicate about how rhetorical strategies have evolved.&lt;/p&gt;
 
-&lt;p&gt;In short, they found that opponents to abortion had done a better job of adapting their strategies over time, making efforts to match the way the Court itself was changing, and made more emotional appeals.&lt;/p&gt;
+&lt;p&gt;In short, they found that opponents to abortion had done a better job of adapting their strategies over time, making efforts to match the way the Court itself was changing.&lt;/p&gt;
 
 &lt;p&gt;I was curiuos to dig a bit deeper into the analysis. See what methods they used and if they could be applied to other issues commonly brought before the Court.&lt;/p&gt;
 
 &lt;p&gt;But when I looked through the &lt;a href=&quot;https://scholarship.law.missouri.edu/cgi/viewcontent.cgi?article=4664&amp;amp;context=mlr&quot;&gt;full paper&lt;/a&gt; I saw that they’d limited their analysis to reproductive rights, and they hadn’t made the data available.&lt;/p&gt;
 
-&lt;p&gt;So I went digging around the internet in search of a dataset of Supreme Court opinions text but had a surprisingly difficult time finding one. There were some datasets on how justices voted, data on lower and state courts, data on caselaw, and even a couple resources that had the text of oral arguments. Here are a few:&lt;/p&gt;
+&lt;p&gt;So I went digging around the internet in search of a dataset of Supreme Court opinions text, and had a surprisingly difficult time finding one. There were some datasets on how justices voted, data on lower and state courts, data on caselaw, and even a couple resources that had the text of oral arguments. Here are a few interesting resources I found along the way:&lt;/p&gt;
 &lt;ul&gt;
   &lt;li&gt;&lt;a href=&quot;http://scdb.wustl.edu/&quot;&gt;Supreme Court Database&lt;/a&gt; from Washington University Law&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;https://case.law/&quot;&gt;Caselaw Access Project&lt;/a&gt; from Harvard Law School&lt;/li&gt;
@@ -189,16 +189,21 @@ Level 1: 17th percentile of local median wage | Level 2: 34th perc | Level 3: 50
   &lt;li&gt;&lt;a href=&quot;https://free.law/projects/supreme-court-data&quot;&gt;Supreme Court Data&lt;/a&gt; from &lt;a href=&quot;https://free.law/&quot;&gt;Free Law Project&lt;/a&gt; and &lt;a href=&quot;https://www.courtlistener.com/&quot;&gt;CourtListener&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;But I couldn’t seem to find what I was looking for: a freely available dataset on Supreme Court opinions text in machine-readable format.&lt;/p&gt;
+&lt;p&gt;But I couldn’t seem to find what I was looking for: a freely available dataset of Supreme Court opinions text in machine-readable format.&lt;/p&gt;
 
 &lt;p&gt;So I tried making it myself. &lt;a href=&quot;https://github.com/nikhilgahlawat/scotus_scraper/tree/main&quot;&gt;SCOTUS Scraper&lt;/a&gt; is a project in-progreess that collects data from &lt;a href=&quot;https://supreme.justia.com/&quot;&gt;Justia&lt;/a&gt;, &lt;a href=&quot;https://www.oyez.org/&quot;&gt;Oyez&lt;/a&gt;, and the &lt;a href=&quot;https://www.supremecourt.gov/&quot;&gt;US Supreme Court&lt;/a&gt; and processes them into datasets that can be used for data science and research.&lt;/p&gt;
 
-&lt;p&gt;Some questions I’m hoping that can be asked of the data:&lt;/p&gt;
+&lt;p&gt;Some analses I’m hoping can be done with the data:&lt;/p&gt;
 &lt;ul&gt;
-  &lt;li&gt;…&lt;/li&gt;
-  &lt;li&gt;…&lt;/li&gt;
-  &lt;li&gt;…&lt;/li&gt;
+  &lt;li&gt;Compare amicus briefs and opinions to see if certain organizations that frequently submit briefs are more influential than others.&lt;/li&gt;
+  &lt;li&gt;Compare amicus briefs and opinions to see whether certain justices more influenced by amicus briefs than others.&lt;/li&gt;
+  &lt;li&gt;Analyze the content of influential amicus briefs to understand what makes them persuasive.&lt;/li&gt;
+  &lt;li&gt;Identify and compare rhetorical strategies used in majority opinions, dissenting opinions, and amicus briefs.&lt;/li&gt;
+  &lt;li&gt;Examine how consistent justices are in their rulings over time, particularly in cases involving similar legal principles.&lt;/li&gt;
+  &lt;li&gt;Identify instances where justices have changed their stance on key issues and analyze the potential reasons for these shifts.&lt;/li&gt;
 &lt;/ul&gt;
+
+&lt;p&gt;This is an ongoing project so I’m hoping to add more features and additional data. Check out the &lt;a href=&quot;https://github.com/nikhilgahlawat/scotus_scraper/&quot;&gt;Github repo&lt;/a&gt; for more.&lt;/p&gt;
 
 </content>
  </entry>
