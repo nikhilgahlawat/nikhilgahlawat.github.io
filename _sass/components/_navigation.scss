@@ -6,7 +6,7 @@
 .nav-main {
   font-size: $font-size; // override mobile media query
   text-align: center;
-  margin-bottom: 4rem;
+  margin-bottom: 2rem;
 
   @media (max-width: 38em) {
     margin-bottom: 2rem;
@@ -17,6 +17,12 @@
     border-bottom-color: $nav-bottom-border-color;
     border-bottom-width: $nav-bottom-border-width;
     border-bottom-style: solid;
+
+    max-width: 35rem;
+/*    padding-left:  1.5rem;
+    padding-right: 1.5rem; */
+    margin-left:  auto;
+    margin-right: auto;
   }
 
   li {
@@ -40,5 +46,6 @@
     line-height: 2em;
     margin: 0 1rem;
     padding: 0;
+    text-align: center;
   }
 }
