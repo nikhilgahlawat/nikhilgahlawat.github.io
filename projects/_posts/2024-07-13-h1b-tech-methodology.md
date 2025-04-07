@@ -11,7 +11,7 @@ excerpt_separator: <!--more-->
 
 -----
 
-The U.S. technology sector is increasingly relying on the H-1B visa \- a shift away from the IT and professional services firms that had previously dominated. The outsourcing business model advanced by these companies \- contracting foreign labor to clients and, in many cases, offshoring jobs \- has shaped public perception of the H-1B and fueled bipartisan criticism.
+The U.S. technology sector is increasingly relying on the H-1B visa \- a shift away from the IT and professional services firms that had previously dominated the program. The outsourcing business model advanced by these companies \- contracting foreign labor to clients and, in many cases, offshoring jobs \- has shaped public perception of the H-1B and fueled bipartisan criticism.
 
 [New analysis](https://www.nikhilgahlawat.com/projects/h1b-tech/) of data from the Department of Labor and U.S. Citizenship and Immigration Services sheds light on the current make-up of H-1B employers and how the shift toward tech is unfolding. Among the key findings are:
 
