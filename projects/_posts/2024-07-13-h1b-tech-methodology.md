@@ -1,11 +1,11 @@
 ---
 layout: post
-title: Analyzing H-1B Visa Data
+title: How to Analyze H-1B Data
 truncated_preview: true
 excerpt_separator: <!--more-->
 ---
 
-_A description of the data and methodology used in [H-1B Visas and Big Tech](https://www.nikhilgahlawat.com/projects/h1b-tech/). See the story for the full analysis and [Github](https://github.com/nikhilgahlawat/immigration-h1b/) for the code._
+*The data sources, cleaning process, and methods used to analyze H-1B data. The full analysis appears in the [main story](https://www.nikhilgahlawat.com/projects/h1b-tech/), and code is available on [Github](https://github.com/nikhilgahlawat/immigration-h1b/).*
 
 <!--more-->
 
