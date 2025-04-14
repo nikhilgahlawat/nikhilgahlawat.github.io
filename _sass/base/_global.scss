@@ -25,11 +25,11 @@ body {
 
 a {
   color: $link-color;
-  text-decoration: none;
+  text-decoration: underline;
 
   &:hover,
   &:focus {
-    text-decoration: underline;
+    text-decoration: none;
   }
 
   strong {
