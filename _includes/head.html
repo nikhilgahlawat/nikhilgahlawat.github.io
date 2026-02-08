@@ -1,6 +1,9 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+  {% if page.url contains '/projects/' or page.title == 'Projects' %}
+  <meta name="robots" content="noindex, nofollow">
+  {% endif %}
 
   <title>
     {% if page.title == "Home" %}
